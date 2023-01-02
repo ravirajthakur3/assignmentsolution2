@@ -33,35 +33,65 @@ Q16. Write a code that gives following as an output.
 ```
 iNeuroniNeuroniNeuroniNeuron
 ```
+ans-str="iNeuron"
+print(str*4)
 
 Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+ans-num=float(input("Enter the number:-"))
+if num%2==0:
+    print("no is even")
+else:
+    print("no is odd") 
 
 Q18. What are boolean operator?
 
 Q19. What will the output of the following?
 ```
 1 or 0
-
-0 and 0
-
+ans-1
+0 & 0
+ans-0
 True and False and True
-
+ans-False
 1 or 0 or 0
+ans-1
 ```
-
 Q20. What are conditional statements in Python?
 
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 
 Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+ans-
+age=int(input("enter the age -"))
+if age >= 18 :
+    print("I can vote")
+else:
+    print("I can't vote")   
 
 Q23. Write a code that displays the sum of all the even numbers from the given list.
 ```
 numbers = [12, 75, 150, 180, 145, 525, 50]
+numbers = [12, 75, 150, 180, 145, 525, 50]
+a=0
+for i in numbers:
+    if i%2==0:
+        a=a+i
+    else:
+        continue    
+print(a)  
 ```
 
 
 Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+ans-
+x,y,z=input(" enter 3 no -").split(",")
+if x>y and x>z:
+    print(f"{x} is greater")
+elif y>x and y>z:
+    print(f"{y} is greator")
+else:
+    print(F"{z} is greater")   
 
 Q25. Write a program to display only those numbers from a list that satisfy the following conditions
 
@@ -70,6 +100,15 @@ Q25. Write a program to display only those numbers from a list that satisfy the 
 - If the number is greater than 150, then skip it and move to the next number
 
 - If the number is greater than 500, then stop the loop
+ans-numbers = [12, 75, 150, 180, 145, 525, 50]
+# lis=[]
+# for i in list1:
+#     if i >150:
+#         if i > 500:
+#              break
+#     elif i%5==0:  
+#        lis.append (i) 
+# print(lis)  
 ```
-numbers = [12, 75, 150, 180, 145, 525, 50]
+
 ```
