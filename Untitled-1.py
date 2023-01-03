@@ -31,7 +31,7 @@
 # - If the number is greater than 500, then stop the loop
 
 
-list1= [12, 75, 150, 180, 145, 525, 50]
+# list1= [12, 75, 150, 180, 145, 525, 50]
 
 # lis=[]
 # for i in list1:
@@ -42,16 +42,23 @@ list1= [12, 75, 150, 180, 145, 525, 50]
 #        lis.append (i) 
 # print(lis)  
 
-lis=[]
-for i in list1:
-    if i%5==0:
-    elif i>150:
-        if i>500:
-         break
-    lis.append (i) 
-print(lis)
 
+# Q28. Write a code to get the desired output of the following
 
+# string = "Big Data iNeuron"
+# desired_output = "iNeuron"
+
+# str="Big Data iNeuron"
+# print(str[9:16])
+
+# Q29. Write a code to get the desired output of the following
+
+# string = "Big Data iNeuron"
+# desired_output = "norueNi"
+
+str="Big Data iNeuron"
+# print(str[15:8:-1])
+print(str[::-1])
 
 
 
